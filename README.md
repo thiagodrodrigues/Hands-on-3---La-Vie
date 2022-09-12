@@ -86,7 +86,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
    </td>
    <td align="center"> <img src="https://avatars.githubusercontent.com/u/76272470?v=4"  width=175/></br><a href="https://www.linkedin.com/in/fernando-predes-b1545838/"> Fernando Predes </a>
    </td>
-    <td align="center"> <img src="" width=175/></br><a href="https://www.linkedin.com/in/peh-arruda/"> Gabriel Paulo </a>
+    <td align="center"> <img src="" width=175/></br><a href=""> Gabriel Paulo </a>
    </td>
     <td align="center"> <img src="" width=175/> </br><a href="https://www.linkedin.com/in/patricksegalla/"> Patrick Segalla </a>
    </td>
