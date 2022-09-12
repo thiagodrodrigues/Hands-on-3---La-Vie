@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const DB_NAME = "movies";
+const DB_NAME = "lavie";
 const DB_USER = "root";
 const DB_PASS = "";
 const DB_CONFIG = {
