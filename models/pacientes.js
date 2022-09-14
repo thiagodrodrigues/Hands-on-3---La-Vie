@@ -26,11 +26,11 @@ const pacientes = db.define(
         type: DataTypes.STRING,
         allowNull: true,
     },
-    createAt: {
+    createdAt: {
         type: DataTypes.DATE,
         allowNull: true,
     },
-    updateAt: {
+    updatedAt: {
         type: DataTypes.DATE,
         allowNull: true,
     },

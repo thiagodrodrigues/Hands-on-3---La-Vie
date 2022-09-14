@@ -47,7 +47,7 @@ const pacientesController = {
             const { id } = req.params;
             const pacienteSalvo = await Pacientes.findOne({
                 where:{
-                    paciente_id : id
+                    idPaciente : id
                 }
             });
 
@@ -73,7 +73,7 @@ const pacientesController = {
 
     const deletarPaciente = await Pacientes.destroy({
         where:{
-             paciente_id: id,
+             idPaciente: id,
         }
     })
         return res.status(201).json(`Paciente ${deletarPaciente} deletado.`)
@@ -94,7 +94,7 @@ const pacientesController = {
               email,
       },{
           where:{
-              paciente_id : id
+              idPaciente : id
           }
       });
 
