@@ -68,7 +68,7 @@ const pacientesController = {
     const destroyPaciente = await Pacientes.findByPk(id)
 
     if (!destroyPaciente){
-        return res.status(404).send("Id não encontrado!");
+        return res.status(404).send("Id não encontrado.");
     };
 
     const deletarPaciente = await Pacientes.destroy({
@@ -79,7 +79,7 @@ const pacientesController = {
         return res.status(201).json(`Paciente ${deletarPaciente} deletado.`)
          } catch (error) {
       console.error(error);
-      return res.status(404).json("Ocorreu um erro na requisição ao deletar.")
+      return res.status(404).json("Ocorreu um erro.")
           }
       },
 
@@ -101,14 +101,14 @@ const pacientesController = {
       const exibirPaciente = await Pacientes.findByPk(id)
 
           if (!exibirPaciente){
-              return res.status(400).send("Id não encontrado!");
+              return res.status(400).send("Id não encontrado.");
           } else{res.status(200).json(exibirPaciente)
 
           }
 
       } catch (error) {
         console.error(error);
-        res.status(400).json("Ocorreu um erro na requisição")
+        res.status(400).json("Ocorreu um erro.")
       }
     }
 
