@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": ".\\node_modules\\.bin\\nodemon index.js" 
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
     "express-jwt": "^5.3.1",
+    "express-validation": "^4.1.0",
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.19"
