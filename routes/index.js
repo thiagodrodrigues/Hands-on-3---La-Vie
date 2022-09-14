@@ -12,17 +12,17 @@ routes.post("/login", validacaologin, authController.login);
 
 //routes do atendimento
 
-routes.get('/atendimentos', atendimentosController.listAtendimentos);
+/* routes.get('/atendimentos', atendimentosController.listAtendimentos);
 routes.get('/atendimentos/:id', atendimentosController.getAtendimentoId);
-routes.post('/atendimentos', atendimentosController.postAtendimento);
+routes.post('/atendimentos', atendimentosController.postAtendimento); */
 
 //routes do paciente
 
 routes.get('/pacientes', pacientesController.listarPacientes);
-routes.post('/paciente', validatePaciente, pacientesController.cadastrarPaciente);
-routes.get('/paciente/:id', pacientesController.listarPacienteID);
-routes.delete('/paciente/:id', pacientesController.deletarPaciente);
-routes.put('/paciente/:id', pacientesController.atualizarPaciente);
+routes.post('/pacientes', validatePaciente, pacientesController.cadastrarPaciente);
+routes.get('/pacientes/:id', pacientesController.listarPacienteID);
+routes.delete('/pacientes/:id', pacientesController.deletarPaciente);
+routes.put('/pacientes/:id', pacientesController.atualizarPaciente);
 
 
 module.exports = routes
