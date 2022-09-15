@@ -5,8 +5,11 @@ const validatePaciente = require('../validators/paciente')
 const validacaologin = require('../validators/login');
 const routes = express.Router()
 const psicologosController = require ("../controllers/psicologosController");
-/* routes.get('/gender', GenderController.listAll) -> Apenas deixei de exemplo */
+
+
+//routes do psicologos
 routes.get("/psicologos", psicologosController.listarPsicologos)
+routes.post("/psicologos", psicologosController.cadastrarPsicologos)
 
 
 //routes do login
