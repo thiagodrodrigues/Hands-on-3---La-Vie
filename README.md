@@ -85,9 +85,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
    <td align="center"> <img src="https://avatars.githubusercontent.com/u/102426768?v=4" width=175/></br><a href="https://www.linkedin.com/in/ellen-ribeiro-borges-7371811bb/"> Ellen Ribeiro </a>
    </td>
    <td align="center"> <img src="https://avatars.githubusercontent.com/u/76272470?v=4"  width=175/></br><a href="https://www.linkedin.com/in/fernando-predes-b1545838/"> Fernando Predes </a>
-   </td>
-    <td align="center"> <img src="" width=175/></br><a href=""> Gabriel Paulo </a>
-   </td>
     <td align="center"> <img src="https://avatars.githubusercontent.com/u/100455177?v=4" width=175/> </br><a href="https://www.linkedin.com/in/patricksegalla/"> Patrick Segalla </a>
    </td>
     <td align="center"> <img src="https://avatars.githubusercontent.com/u/109247611?v=4" width=175/> </br><a href="https://www.linkedin.com/in/raphael-anizio-da-silva-0173211b8/"> Thiago Rodrigues </a>
