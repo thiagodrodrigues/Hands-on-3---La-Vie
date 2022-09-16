@@ -1,6 +1,3 @@
-# Hands-on-3---La-Vie
-
-
 <h1 align=center> La Vie - Saúde Mental </hi> <br>
 
 <img src="./docs/LaVie.jpeg" alt="LaVie">
@@ -23,19 +20,33 @@
 
   <br>
 
-- Login:
+- Login: 
+    - /login (post): Esse endpoint recebe dois parâmetros obrigatórios: email e senha; que são validados de acordo com as informações do banco de dados.
   
   <br>
 
 - Psicólogos:
+    - /psicologos (get): Lista todos os psicólogos cadastrados no banco de dados, exibindo todos os atributos da entidade. Caso não exista nenhum psicólogo, envia um array vazio como resposta.
+    - /psicologos (post): Recebe um objeto no body da requisição contendo: "nome", "email", "senha", "apresentacao".
+    - /psicologos/:id (get): Devolve um objeto com todas as informações do psicólogo do id informado na url, com exceção da senha. 
+    - /psicologos/:id (put): Recebe o id do psicólogo que será atualizado. Recebe um objeto no body da requisição contendo: "nome", "email", "senha", "apresentacao".
+    - psicologos/:id (del): Irá receber o id do psicólogo que será deletado.
   
   <br>
 
-- Pacientes:
+- Pacientes: 
+    - /pacientes (get): Lista todos os pacientes cadastrados no banco de dados, exibindo todos os atributos da entidade. Caso não exista nenhum psicólogo, envia um array vazio como resposta.
+    - /pacientes (post): Recebe um objeto no body da requisição contendo: "nome", "email", "idade".
+    - /pacientes/:id (get): Devolve um objeto com todas as informações do paciente do id informado na url.
+    - /pacientes/:id (put): Recebe o id do psicólogo que será atualizado. Recebe um objeto no body da requisição contendo: "nome", "email", "idade".
+    - /pacientes/:id (del): Irá receber o id do paciente que será deletado.
   
   <br>
 
 - Atendimentos:
+    - /atendimentos (get): Listado todos os atendimentos realizados por todos os psicólogos cadastrados no banco de dados, exibindo todos os atributos da entidade.
+    - /atendimentos (post): Irá receber o id do paciente que será atualizado. Recebe um objeto no body  da requisição contendo: "paciente_id", "data_atendimento", "observação".
+    - /atendimentos/:id (get): Devolve um objeto com todas as informações do atendimento do id informado na url.
  
   <br>
 
@@ -85,8 +96,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
    <td align="center"> <img src="https://avatars.githubusercontent.com/u/102426768?v=4" width=175/></br><a href="https://www.linkedin.com/in/ellen-ribeiro-borges-7371811bb/"> Ellen Ribeiro </a>
    </td>
    <td align="center"> <img src="https://avatars.githubusercontent.com/u/76272470?v=4"  width=175/></br><a href="https://www.linkedin.com/in/fernando-predes-b1545838/"> Fernando Predes </a>
-   </td>
-    <td align="center"> <img src="" width=175/></br><a href=""> Gabriel Paulo </a>
    </td>
     <td align="center"> <img src="https://avatars.githubusercontent.com/u/100455177?v=4" width=175/> </br><a href="https://www.linkedin.com/in/patricksegalla/"> Patrick Segalla </a>
    </td>
