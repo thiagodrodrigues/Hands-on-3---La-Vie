@@ -6,6 +6,8 @@ const validacaologin = require('../validators/login');
 const validacaoPsicologos = require('../validators/psicologo');
 const routes = express.Router()
 const psicologosController = require ("../controllers/psicologosController");
+const atendimentosController = require("../controllers/atendimentosController");
+const auth = require("../middlewares/auth");
 
 
 //routes do psicologo
@@ -23,9 +25,9 @@ routes.post("/login", validacaologin, authController.login);
 
 //routes do atendimento
 
-/* routes.get('/atendimentos', atendimentosController.listAtendimentos);
-routes.get('/atendimentos/:id', atendimentosController.getAtendimentoId);
-routes.post('/atendimentos', atendimentosController.postAtendimento); */
+routes.get('/atendimentos', atendimentosController.listarAtendimentos);
+routes.get('/atendimentos/:id', atendimentosController.listaAtendimentoID);
+routes.post('/atendimentos', auth, atendimentosController.cadastrarAtendimento);
 
 //routes do paciente
 
