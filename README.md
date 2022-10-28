@@ -99,7 +99,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
    </td>
     <td align="center"> <img src="https://avatars.githubusercontent.com/u/100455177?v=4" width=175/> </br><a href="https://www.linkedin.com/in/patricksegalla/"> Patrick Segalla </a>
    </td>
-    <td align="center"> <img src="https://avatars.githubusercontent.com/u/109247611?v=4" width=175/> </br><a href="https://www.linkedin.com/in/raphael-anizio-da-silva-0173211b8/"> Thiago Rodrigues </a>
+    <td align="center"> <img src="https://avatars.githubusercontent.com/u/109247611?v=4" width=175/> </br><a href="https://www.linkedin.com/in/thiago-daniel-alvim-rodrigues-5229a8124/"> Thiago Rodrigues </a>
    </td>
    
   </tr>
